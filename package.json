@@ -1,6 +1,6 @@
 {
   "name": "just-another-handle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Just another wrapper for Handlebars",
   "main": "./dist/index.cjs",
   "publishConfig": {
