@@ -25,6 +25,6 @@ jobs:
 
       - run: npm run build
 
-      - run: npm publish --access public
+      - run: npm adduser && npm publish --access public
         env:
           GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
