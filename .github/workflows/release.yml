@@ -25,6 +25,8 @@ jobs:
 
       - run: npm run build
 
-      - run: npm adduser && npm publish --access public
+      - run: npm adduser --scope=@jrs-custom --registry=https://registry.npmjs.org/
+
+      - run: npm publish --access public
         env:
           GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
