@@ -1,5 +1,5 @@
 {
-  "name": "just-another-handle",
+  "name": "@jrs-custom/just-another-handle",
   "version": "0.0.1",
   "description": "Just another wrapper for Handlebars",
   "main": "./dist/index.cjs",
