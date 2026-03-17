@@ -22,16 +22,13 @@
   "keywords": [
     "Handlebars"
   ],
-  "author": "jacsonrsasse",
+  "author": "Jacson Sasse",
   "license": "MIT",
   "devDependencies": {
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "handlebars": "^4.7.8"
-  },
-  "peerDependencies": {
     "handlebars": "^4.7.8"
   }
 }
